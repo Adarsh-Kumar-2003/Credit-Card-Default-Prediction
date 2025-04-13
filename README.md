@@ -37,6 +37,14 @@ The dataset consists of two main files:
 
 - **Development Data**: 96,806 credit card records with input features and the `bad_flag` (target variable).
 - **Validation Data**: 41,792 credit card records with the same input features but without the target. Used for inference only.
+- Data set links:- https://drive.google.com/drive/folders/1L3b09NTC3cK8Z1vtSk9vIsD-mzQDrQMq?usp=sharing
+- Data set meaning:-
+-   Dev_data_to_be_shared- Training data
+-   validation_data_to_be_shared- Testing data
+-   my_dataframe- imputed data to fill training data(needed in code)
+-   my_results_xgb- results using xg boost classifier
+-   my_results_logistic- results using logistic regression
+-   my_results_randomforest- results using random forest
 
 The features include:
 - `onus_attributes_*`: On-us credit limit and usage behavior
